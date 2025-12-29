@@ -221,7 +221,6 @@ p {
     padding: 20px;
     box-sizing: border-box;
     transition: 0.5s;
-    width: 350px;
     height: 300px;
     margin: 1px;
     
@@ -571,7 +570,7 @@ model-viewer:hover {
     display: grid;
     grid-template-columns: repeat(1, 350px);
     gap: 50px;
-    margin-left: 0%; 
+    justify-content: center; 
     }
 
     .web-img {
