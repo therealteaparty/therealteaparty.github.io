@@ -8,7 +8,17 @@ html {
     scroll-behavior: smooth;
 }
 
+a:any-link {
+    text-decoration: none;
+    cursor: pointer;
+}
 
+.back-to-top {
+    color: rgb(75, 71, 134);
+}
+.back-to-top:hover {
+    color: rgb(203, 168, 72);
+}
 
 .header {
     min-height: 100vh;
@@ -41,9 +51,13 @@ html {
 
 nav {
     display:flex;
-    padding: 2% 6%;
+    padding: 1% 2%;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;   
+}
+
+.nav img {
+    padding-top: 10px;
 }
 
 nav img{
@@ -207,10 +221,12 @@ p {
 }
 
 .row {
-    display: grid;
-    grid-template-columns: repeat(3, 350px);
+    display: flex;
+    flex-flow: row wrap;
     gap: 50px;
-    margin-left: 8%; 
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -221,6 +237,7 @@ p {
     padding: 20px;
     box-sizing: border-box;
     transition: 0.5s;
+    width: 325px;
     height: 300px;
     margin: 1px;
     
@@ -566,12 +583,12 @@ model-viewer:hover {
     }
 
 
-    .row {
+    /* .row {
     display: grid;
     grid-template-columns: repeat(1, 350px);
     gap: 50px;
     justify-content: center; 
-    }
+    } */
 
     .web-img {
         width: 100px;
