@@ -582,6 +582,10 @@ model-viewer:hover {
         box-shadow: 0 0 30px 0px rgba(6, 44, 83, 0.7);
     }
 
+    nav img {
+        display: none;
+    }
+
 
     /* .row {
     display: grid;
