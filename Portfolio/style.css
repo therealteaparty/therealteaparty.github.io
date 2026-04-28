@@ -204,6 +204,7 @@ nav .bi {
 h1 {
     font-size: 36px;
     font-weight: 600;
+    margin-top: 2rem;
 }
 
 p {
@@ -224,10 +225,8 @@ p {
     display: flex;
     flex-flow: row wrap;
     gap: 50px;
-    margin: 0;
-    justify-content: center;
     align-items: center;
-
+    justify-content: center;
 }
 
 
@@ -375,9 +374,8 @@ h3 {
 
 hr.solid-line {
   border: none; 
-  border-top: 5px solid #fff292;
-  margin: 50px 0; 
-
+  border-top: 30px solid #fff292;
+  margin: 0 -25px; 
 }
 
 .item-link {
@@ -472,10 +470,8 @@ model-viewer {
     height: 375px;
     border: 3px solid #9aaee6;
     border-radius: 25px;
-    margin: 0px;
+    margin: 0 auto;
     transition: 0.5s;
-    margin-left: 8%;
-    margin-bottom: 10%;
 }
 
 model-viewer:hover {
@@ -524,6 +520,15 @@ model-viewer:hover {
 }
 
 
+
+/* NEW */
+
+.intro-titles {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 60%;
+    margin: 0 auto;
+}
 
 
 /* https://css-tricks.com/seamless-responsive-photo-grid/ */
@@ -587,12 +592,11 @@ model-viewer:hover {
     }
 
 
-    /* .row {
-    display: grid;
-    grid-template-columns: repeat(1, 350px);
+    .row {
+    flex-flow: column nowrap;
     gap: 50px;
-    justify-content: center; 
-    } */
+    margin: 0 auto;
+}
 
     .web-img {
         width: 100px;
@@ -641,6 +645,16 @@ model-viewer:hover {
         border: 3px solid #9aaee6;
         border-radius: 25px;
         transition: 0.5s;
+    }
+
+    /* NEW  */
+
+    .intro-titles {
+        flex-flow: column nowrap;
+        padding: 4rem;
+    }
+    .intro-titles p {
+        margin: 0;
     }
 
 }
