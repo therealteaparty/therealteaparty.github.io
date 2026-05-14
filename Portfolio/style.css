@@ -1,3 +1,8 @@
+/* #fff292; */
+
+/* darker yellow */
+/* rgb(203, 168, 72); */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +20,11 @@ a:any-link {
 
 .back-to-top {
     color: rgb(75, 71, 134);
+    transition: all 0.3s ease;
 }
 .back-to-top:hover {
     color: rgb(203, 168, 72);
+    transform: scale(1.05);
 }
 
 .header {
@@ -558,6 +565,42 @@ model-viewer:hover {
     color: white;
 }
 
+
+.systems-box {
+    display: flex;
+        flex-direction: row;
+        margin-bottom: 4rem;
+        justify-content: space-evenly;
+}
+
+.systems-text {
+width: 80%;
+        padding: 15px;
+        text-align: left;
+}
+
+.systems-box img {
+    width: 400px;
+    display: block;
+}
+
+.link-btn {
+    transition: all 0.3s ease;
+    display: block;
+    margin: 2rem;
+    font-size: 1.3rem;
+    color: rgb(66, 142, 209)
+}
+
+.link-btn:hover {
+    color: rgb(203, 168, 72);
+    transform: scale(1.05);
+}
+
+
+
+
+
 @media (max-width: 1200px) {
 .images-about {
   -moz-column-count:    4;
@@ -658,6 +701,20 @@ model-viewer:hover {
     }
     .intro-titles p {
         margin: 0;
+    }
+
+    .systems-box {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .systems-box img {
+        width: 350px;
+    }
+
+    .systems-text {
+        text-align: center;
     }
 
 }
