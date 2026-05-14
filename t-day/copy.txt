@@ -1,0 +1,47 @@
+        <p>As a baby child, I was born in Tampa, Florida. For the next few years, I moved around with my cool dad who played baseball and my beautiful mom until we finally settled in Indiana.
+            I loved making lemonade stands, collecting &lpar;and eventually releasing&rpar; lizards, playing Tomodachi Life on my 2DS, and songwriting on a guitar that I had no idea how to play.
+        </p>
+
+        <p>In middle school, I went through that phase where I listened to Twenty-One Pilots, wore chokers around my neck, silly bands on my wrists,
+            and styled my hair with side-swept bangs. </p>
+        
+        <p>
+        By high school, I was primarily a show choir kid and a debate club member. On weekends, I would switch between my sparkly dresses
+        and my suits. My mom says I'm really good at arguing because of my studies in Public Forum, which involved affirmative and negative arguments about hypothetical public polices. 
+        While I did earn fine scores, I once lost a round because the judge
+        thought my hair should have been in a ponytail.</p>
+        
+        <p>
+        I loved my time at Indiana University, especially in the Media School and the Fine Arts Department. I&rsquo;m glad that the Informatics
+        degree has such interesting options through it&rsquo;s cognates and specializations.
+        </p>
+
+            <h3>About me: A very brief summary</h3>
+    <p>
+        I am an artist, a consumer, a collector, and sometimes a cook. I am writing this at 22 years old, which makes me the oldest of two siblings. That also means I&rsquo;m nearing the end of my lifetime as a student. 
+    </p>
+
+
+
+    <h1 class="title-header">Playlists </h1>
+
+    <h3>I made this playlist for Valentine&rsquo;s Day</h3>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7FFQ1P8sM1U4ysUd3QCjUJ?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <h3>This is my spring-going-into-summer playlist</h3>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7zJxgfGP59ZwejtL6SUuJG?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <h3>For the gym</h3>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2PjLStgVe5geAFWqC68xX0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <h3>For a mellow, rainy day</h3>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2qiSPvChjKHKpRuz4AmKtA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <h3>This is the most hyperpop type of music I will listen to</h3>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6SDxAJvlAnAKQog7o3yDQb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <h3>This is mostly just Coco and Clair Clair</h3>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/356tFMlQ9ppeKlVlMpQaV1?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <h3>2010&rsquo;s Pop for the soul</h3>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5rDCdvhQX59NDRXAOzmHWH?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
