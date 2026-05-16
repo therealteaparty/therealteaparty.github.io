@@ -19,12 +19,16 @@ a:any-link {
 }
 
 .back-to-top {
+    margin: 3rem;
+    padding: 5px;
     color: rgb(75, 71, 134);
     transition: all 0.3s ease;
+    font-size: 16px;
+    display: block;
 }
+
 .back-to-top:hover {
     color: rgb(203, 168, 72);
-    transform: scale(1.05);
 }
 
 .header {
@@ -129,6 +133,7 @@ nav img{
 
 .item-box h2{
     font-size: 18px;
+    padding: 10px 0;
 }
 
 .text-box p {
@@ -145,12 +150,15 @@ nav img{
 
 .item-box p {
     width: 100%;
-    font-size: 16px;
-    margin: 10px 0 40px;  
+    font-size: 16px; 
     color: #fff;
     font-weight: 200;
     text-align: center;
     line-height: 1.5
+}
+
+.item-description {
+    margin-bottom: 3rem;
 }
 
 .hero-btn {
@@ -388,6 +396,11 @@ hr.solid-line {
 .item-link {
     all: unset;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.item-link:hover {
+    color: rgb(203, 168, 72);
 }
 
 
@@ -400,8 +413,12 @@ hr.solid-line {
     
 }
 
+.item-process {
+    margin: 3rem 0;
+}
+
 .item p {
-    font-size: 20px; 
+    font-size: 17px; 
     color: #3a3a3a;
     font-weight: 400;
     line-height: 22px;
@@ -409,8 +426,14 @@ hr.solid-line {
     line-height: 1.5;
     max-width: 900px;
     margin: 0 auto;
+    text-align: justify;
+  
 }
 
+.bolded {
+    font-weight: 600;
+    font-size: 18px;
+}
 .colored-text {
     color: #5b6491;
 }
@@ -423,10 +446,33 @@ hr.solid-line {
     padding-top: 100px;
 }
 
+.work table {
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.work table tr,th {
+width: 50%;
+padding: 10px 15px;
+}
+
+.work table tr th {
+text-align: left;
+
+}
+
+.work table tr td {
+text-align: right;
+}
+
 
 .work h1 {
     font-size: 36px;
     font-weight: 600;
+}
+
+.work h2 {
+    margin: 2rem 0;
 }
 
 
@@ -495,6 +541,7 @@ model-viewer:hover {
     max-width: 700px;
     margin: 0 auto;
     color: #3a3a3a;
+    padding-bottom: 4rem;
 }
 
 
@@ -502,8 +549,10 @@ model-viewer:hover {
     display: flex;
     gap: 20px; 
     align-items: center;
-  
+    margin-bottom: 3rem;
 }
+
+
 
 .video-div video {
     width: 50%;
@@ -513,7 +562,8 @@ model-viewer:hover {
 
 .video-div p {
     width: 50%;
-    font-size: 20px; 
+    font-size: 17px; 
+    text-align: justify;
 }
 
 .video-div a {
@@ -552,7 +602,7 @@ model-viewer:hover {
   column-count:         5;
   column-gap:           0px;  
 
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 
 .images-about img {
@@ -565,11 +615,16 @@ model-viewer:hover {
     color: white;
 }
 
+.systems {
+        width: 90%;
+    margin: auto;
+    text-align: center;
+}
 
 .systems-box {
     display: flex;
         flex-direction: row;
-        margin-bottom: 4rem;
+        margin: 8rem 0 2rem;
         justify-content: space-evenly;
 }
 
@@ -579,22 +634,30 @@ width: 80%;
         text-align: left;
 }
 
+.systems-text h2 {
+    padding-left: 8px;
+}
+
 .systems-box img {
     width: 400px;
     display: block;
+    border-radius: 15px;
+}
+
+.systems p {
+    text-align: justify;
 }
 
 .link-btn {
     transition: all 0.3s ease;
     display: block;
-    margin: 2rem;
+    margin: 0 0 1rem;
     font-size: 1.3rem;
-    color: rgb(66, 142, 209)
+    color: rgb(66, 142, 209);
 }
 
 .link-btn:hover {
     color: rgb(203, 168, 72);
-    transform: scale(1.05);
 }
 
 
@@ -680,8 +743,11 @@ width: 80%;
     }
 
     .item-box h1{
-    font-size: 40px;    
+    font-size: 40px; 
+    
     }
+
+    
 
     model-viewer {
         width: 325px;
@@ -711,6 +777,7 @@ width: 80%;
 
     .systems-box img {
         width: 350px;
+        
     }
 
     .systems-text {
