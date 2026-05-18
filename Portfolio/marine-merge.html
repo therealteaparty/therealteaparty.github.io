@@ -11,9 +11,7 @@
         <body>
         <section class = "header-item">
             <nav>
-                <!--    <a href="index.html"><img src="images/logo.png"></a>    -->
     
-
                 <div class = "nav-links" id = "navLinks">
                     <ul>
                         <li> <a href="index.html">HOME</a></li>
@@ -24,15 +22,12 @@
                 </div>
             </nav>
 
-
             <div class="item-box">
                 <h1> Marine Merge </h1>
-                <p>An evolution game created for the Mini Jame Gam #43 on Itch</p>
-                <br>
-                <h2>Development: Unreal Engine 5, Unreal Blueprints </h2>
-                <br> 
-                <h2>Art: Autodesk Maya, Blender </h2>
-
+                <p class="item-description">An evolution game created for the Mini Jame Gam #43 on Itch</p>
+                <p><span class="bolded">Development:</span> Unreal Engine 5, Unreal Blueprints </p>
+                <p><span class="bolded">Art: </span>Autodesk Maya, Blender </p>
+                <p><span class="bolded">Timeline:</span> 5 Days </p>
 
             </div>
 
@@ -40,6 +35,8 @@
 
             <section class="item"> 
 
+                <a class="item-btn" href="https://symbiontprojects.itch.io/marine-merge"> Play on itch.io </a>
+                
                 <div class = "video-div">
                 <video autoplay loop playsinline controls>
                     <source src="marineMerge/merge.mp4">
@@ -51,12 +48,19 @@
                  for their aquarium and avoids overpopulating their tank with bigger and bigger aquatic 
                  creatures. The player may evolve from a tiny minnow to a great white shark if they play carefully
                   and intentionally, learning the patterns of which fish evolve. While played on
-                a 2D landscape, the visuals were inspired by a cartoon-shaded 3D structure. Téa's contrubution emphasized
+                a 2D landscape, the visuals were inspired by a cartoon-shaded 3D structure. My contrubution emphasized
                 gameplay programming and 3D modeling.
                 </p>
                 </div>
-                <br>
-                
+
+                <h2>About the Process</h2>
+                <div class="item-process">
+                <p> I developed the main gameplay mechanics with greyboxes for fish, ensuring that the programming functioned as we neeeded before developing 3D models. Each 'fish' represented an entity of a certain evolution. If two similar objects touch, they will 'evolve' into the next fish. 
+                </p><p>A major challenge, given the short time frame, was ensuring that objects were carefully created and destroyed at the exact right time. If new objects were instantiated too soon or early, then they would interrupt the functionality of new and current objects in the scene </p>
+                <p>Sound and animation were developed by Alex Kutza, who I worked alongside during this game jam.</p>
+                </div>
+
+                <h2>Featured Images</h2>
 
                 <div class="image-grid">
                     <img src="marineMerge/merge1.png">
@@ -64,11 +68,9 @@
                     <img src="marineMerge/merge2.png">
                 </div>
 
-                <br>
-                <br>
 
 
-                <a class="item-btn" href="https://symbiontprojects.itch.io/marine-merge"> Play on itch.io </a>
+                <h3> <a href ="#top" class="back-to-top"> Back to top </a></h3>
 
                 <hr class = "solid-line">
 

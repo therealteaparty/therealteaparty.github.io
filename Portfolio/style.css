@@ -178,28 +178,25 @@ nav img{
 .item-btn {
     display: inline-block;
     text-decoration: none;
-    color: #000000;
-    border: 1px solid #000000;
-    padding: 24px 68px;
     font-size: 22px;
-    background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 34px;
+    margin-bottom: 3rem;
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s ease;
+    color: rgb(75, 71, 134);
+    font-weight: 600;
 }
 
 .hero-btn:hover{
-    border:1px solid #fff292;
+    border-bottom:1px solid #fff292;
     background: #fff292;
     transition: 1s;
 }
 
 .item-btn:hover{
-    border:1px solid #fff292;
-    background: #fff292;
-    color: #ffffff;
-    border: 0px solid;
-    transition: 1s;
+    border-bottom: 3px solid #fff292;
+    color: rgb(203, 168, 72);
 }
 
 

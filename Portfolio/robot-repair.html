@@ -11,9 +11,7 @@
         <body>
         <section class = "header-item">
             <nav>
-                <!--    <a href="index.html"><img src="images/logo.png"></a>    -->
     
-
                 <div class = "nav-links" id = "navLinks">
                     <ul>
                         <li> <a href="index.html">HOME</a></li>
@@ -24,20 +22,22 @@
                 </div>
             </nav>
 
-
             <div class="item-box">
                 <h1> Robot Repair </h1>
-                <p>A puzzle game to help a broken robot uncover a secret message, letter by letter</p>
-                <br>
-                <h2>Development: Unity 6, C# </h2>
-                <br> 
-                <h2>Art: Autodesk Maya 2025, Blender 3.6, Procreate </h2>
+                <p class="item-description">A puzzle game to help a broken robot uncover a secret message, letter by letter</p>
+                <p><span class="bolded">Development:</span> Unity 6, C# </p>
+                <p><span class="bolded">Art: </span>Autodesk Maya 2025, Blender 3.6, Procreate </p>
+                <p><span class="bolded">Timeline:</span> 3 Weeks </p>
             </div>
 
         </section>
 
             <section class="item"> 
 
+
+                <a class="item-btn" href="https://teacassidy.itch.io/robot-repair"> Play on itch.io </a>
+
+                <div class="video-div">
                 <p>
                     <strong>Robot Repair </strong>is a cartoon-stylized puzzle word game. 
                     It follows a brief narrative, encouraging the player to uncover
@@ -47,18 +47,35 @@
                      strong beginning and end, while also implementing a balanced overall feeling
                      for the player. With a strong system of feedback, reaction, and the 
                      ability to try again, this game can be utilized for any 
-                     puzzle-like experience. 
+                     puzzle-like experience.
                 </p>
+                </div>
 
-                <br>
+                <h2>About the Process</h2>
+                <div class="item-process">
+                <p>This game was inspired by the classic Hangman. It is currently based on a message that I personally chose, but I always imagined that, with more time, the game could dynamically decide new phrases by gathering information from a list of options.</p>
+                <p>
+                    I organized all possible letters, all previous guesses, and new guesses in various arrays and lists of letters in a set of global variables. It was the effort of various event listeners in Unity that consistently checked whether the player was closer to unlocking the puzzle.
+                </p>
+                <p>
+                    I gained the most experience with Unity's animation system through this project. I was able to understand how to implement state machines in both C# and the animator's visual programming interface. Many of the animations that you see in the game are triggered based on the player's guesses.
+                </p>
+                <p>
+                    There are also three different versions of the little hanging robot. You might notice that, as you collect more and more correct letters, he slowly becomes less damaged and more lively in his animations.
+                </p>
+                </div>
 
-                <a class="item-btn" href="https://teacassidy.itch.io/robot-repair"> Play on itch.io </a>
+                <h2>Featured Images</h2>
 
                 <div class="image-grid">
                     <img src="RobotRepair/robot1.png">
                     <img src="RobotRepair/robot3.png">
                     <img src="RobotRepair/robot4.png">
                 </div>
+
+
+                <h3> <a href ="#top" class="back-to-top"> Back to top </a></h3>
+
                 <hr class = "solid-line">
 
             </section>
