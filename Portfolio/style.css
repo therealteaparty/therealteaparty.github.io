@@ -386,8 +386,8 @@ h3 {
 
 hr.solid-line {
   border: none; 
-  border-top: 30px solid #fff292;
-  margin: 0 -100px; 
+  border-top: 10px solid #fff292;
+  margin-bottom: 3rem;
 }
 
 .item-link {
@@ -621,29 +621,44 @@ model-viewer:hover {
 .systems-box {
     display: flex;
         flex-direction: row;
-        margin: 8rem 0 2rem;
+        margin: 5rem 0 2rem;
         justify-content: space-evenly;
 }
 
 .systems-text {
-width: 80%;
         padding: 15px;
         text-align: left;
+        
+
 }
 
 .systems-text h2 {
     padding-left: 8px;
+    margin-bottom: 2rem;
+}
+
+.systems-text .item-btn {
+    font-size: 18px;
 }
 
 .systems-box img {
-    width: 400px;
+    width: 450px;
     display: block;
-    border-radius: 15px;
+    border: 5px solid #fff292;
+
 }
 
 .systems p {
     text-align: justify;
-}
+} 
+
+    .systems-dev {
+       color: rgb(203, 168, 72);
+    }
+
+    .systems-text .item-btn {
+        padding: 0 10px;
+    }
 
 .link-btn {
     transition: all 0.3s ease;
@@ -780,6 +795,9 @@ width: 80%;
     .systems-text {
         text-align: center;
     }
+
+
+
 
 }
 
