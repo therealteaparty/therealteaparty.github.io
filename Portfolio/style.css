@@ -145,7 +145,7 @@ nav img{
 }
 
 .text-box h1 {
-    font-size: 62px;
+    font-size: 75px;
 }
 
 .item-box p {
@@ -166,7 +166,7 @@ nav img{
     width: 100px;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -189,9 +189,10 @@ nav img{
 }
 
 .hero-btn:hover{
-    border-bottom:1px solid #fff292;
-    background: #fff292;
+    border:2px solid rgb(203, 168, 72);
+    background: #ffffff;
     transition: 1s;
+    color: rgb(203, 168, 72);
 }
 
 .item-btn:hover{
@@ -414,6 +415,8 @@ hr.solid-line {
     margin: 3rem 0;
 }
 
+
+
 .item p {
     font-size: 17px; 
     color: #3a3a3a;
@@ -425,6 +428,10 @@ hr.solid-line {
     margin: 0 auto;
     text-align: justify;
   
+}
+
+.contact-copy p {
+    text-align: center;
 }
 
 .bolded {
@@ -538,7 +545,7 @@ model-viewer:hover {
     max-width: 700px;
     margin: 0 auto;
     color: #3a3a3a;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -580,8 +587,9 @@ model-viewer:hover {
 
 .intro-titles {
     display: flex;
-    justify-content: space-evenly;
-    max-width: 60%;
+    font-size: 18px;
+    justify-content: center;
+    max-width: 50%;
     margin: 0 auto;
 }
 
@@ -656,9 +664,6 @@ model-viewer:hover {
        color: rgb(203, 168, 72);
     }
 
-    .systems-text .item-btn {
-        padding: 0 10px;
-    }
 
 .link-btn {
     transition: all 0.3s ease;
@@ -795,6 +800,7 @@ model-viewer:hover {
     .systems-text {
         text-align: center;
     }
+
 
 
 
