@@ -3,6 +3,25 @@
 /* darker yellow */
 /* rgb(203, 168, 72); */
 
+
+/* animations */
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    animation: fade-in 0.5s;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -581,6 +600,13 @@ model-viewer:hover {
     overflow: hidden;
 }
 
+.custom-iframe {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 
 
 /* NEW */
@@ -745,7 +771,8 @@ model-viewer:hover {
     .video-div video,
     .video-div a,
     .video-div iframe,
-    .video-div p {
+    .video-div p,
+    .custom-iframe {
         width: 100%; /* full width on mobile */
     }
 
