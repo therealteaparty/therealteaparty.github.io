@@ -205,6 +205,7 @@ nav img{
     transition: all 0.5s ease;
     color: rgb(75, 71, 134);
     font-weight: 600;
+    padding-left: 8px;
 }
 
 
@@ -705,7 +706,7 @@ model-viewer:hover {
 }
 
 .systems-box img {
-    width: 450px;
+    width: 500px;
     display: block;
     border: 5px solid #fff292;
 
@@ -740,6 +741,35 @@ model-viewer:hover {
   -webkit-column-count: 4;
   column-count:         4;
   }
+      .systems-box {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .systems-box img {
+        width: 75vh;
+        
+    }
+
+    .systems-text {
+        width: 90%;
+        padding: 0 15px;
+        width: 75vh;
+        text-align: center;
+    }
+    
+
+
+    .systems {
+        width: 100%;
+    }
+
+    .systems p {
+    text-align: left;
+    }
+
 }
 @media (max-width: 1000px) {
 .images-about {
@@ -747,6 +777,9 @@ model-viewer:hover {
   -webkit-column-count: 3;
   column-count:         3;
   }
+
+  
+
 }
 
 @media (max-width: 800px) {
@@ -855,30 +888,6 @@ model-viewer:hover {
         margin: 0;
     }
 
-    .systems-box {
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .systems-box img {
-        width: 350px;
-        
-    }
-
-    .systems-text {
-        width: 90%;
-        padding: 0 15px;
-    }
-
-
-    .systems {
-        width: 100%;
-    }
-
-    .systems p {
-    text-align: left;
-    }
 
 }
 
