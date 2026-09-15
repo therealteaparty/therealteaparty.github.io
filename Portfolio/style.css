@@ -856,6 +856,19 @@ model-viewer:hover {
   -webkit-column-count: 1;
   column-count:         1;
   }
+
+  .header-main {
+    padding-top: 40%;
+  }
+
+  .text-box {
+    transform: translate(-50%,-50%);
+    }
+
+    .nav-links {
+        margin-top: -70%;
+    }
+
 }
 
 
