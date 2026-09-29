@@ -1,3 +1,21 @@
+/* HERO */
+
 .custom-hero {
     padding: 100px 0;
+}
+
+.titles {
+    margin: 5% 0 10%;
+}
+
+.yellow-title {
+    color: yellow;
+    margin-bottom: 3%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+    padding: 15px;
 }
