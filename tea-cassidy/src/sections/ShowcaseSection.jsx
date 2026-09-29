@@ -44,15 +44,15 @@ const ShowcaseSection = () => {
   }, []);
 
   return (
-    <div id="work" ref={sectionRef} className="app-showcase">
+    <div id="ShowcaseSection" ref={sectionRef} className="app-showcase">
       <div className="w-full">
 
-
-        <div className="showcaselayout">
-
-        <h1 className="section-title">
+<h1 className="section-title">
             Featured Projects
         </h1>
+        <div className="showcaselayout">
+
+        
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
               <img src="/images/project1.png" alt="Ryde App Interface" />

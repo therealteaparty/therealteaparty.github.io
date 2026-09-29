@@ -28,7 +28,7 @@ const NavBar = () => {
             <div className="inner">
 
                 <a href="#hero" className="logo">
-                    Tea Cassidy Held
+                    T&eacute;a Cassidy Held
                 </a>
 
                 <nav className="desktop">

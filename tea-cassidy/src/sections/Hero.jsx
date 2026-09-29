@@ -27,7 +27,7 @@ const Hero = () => {
             <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                 <div className="flex flex-col gap-7">
                     <div className="hero-text titles">
-                        <h1 className="yellow-title">Tea Cassidy Held</h1>
+                        <h1 className="yellow-title">T&eacute;a Cassidy Held</h1>
                         <h2>
                             <span className="slide">
                             <span className="wrapper">
@@ -36,11 +36,11 @@ const Hero = () => {
                                     key={index}
                                     className="flex items-center md:gap-3 gap-1 pb-2"
                                 >
-                                    <img
+                                    {/* <img
                                     src={word.imgPath}
                                     alt="person"
                                     className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
-                                    />
+                                    /> */}
                                     <span>{word.text}</span>
                                 </span>
                                 ))}
@@ -51,14 +51,20 @@ const Hero = () => {
                     </div>
 
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                    Hi, I’m Tea :3
+                    Hi, I’m T&eacute;a. I develop creative technologies for media.
                     </p>
 
-                    <Button
+                    <a href="#ShowcaseSection" className="simple-btn group">
+                    <div className="inner">
+                    <span>Get Started</span>
+                    </div>
+                    </a>
+
+                    {/* <Button
                     text="See My Work"
                     className="md:w-80 md:h-16 w-60 h-12"
                     id="counter"
-                    />
+                    /> */}
                 </div>
                 </header>
 

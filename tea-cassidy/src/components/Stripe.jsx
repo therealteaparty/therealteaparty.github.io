@@ -30,13 +30,13 @@ const Stripe = () => (
     <div className="marquee h-52">
 <div className="marquee-box md:gap-12 gap-5">
 {headings.map((heading, index) => (
-<h2 key={index} className="text-4xl font-bold text-white">
+<h2 key={index} className="text-4xl font-bold text-black">
 {heading}
 </h2>
 ))}
  
 {headings.map((heading, index) => (
-<h2 key={`duplicate-${index}`} className="text-4xl font-bold text-white">
+<h2 key={`duplicate-${index}`} className="text-4xl font-bold text-black">
 {heading}
 </h2>
 ))}
