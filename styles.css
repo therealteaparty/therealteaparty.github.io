@@ -1,3 +1,9 @@
+/* ROOT */
+
+:root {
+  --primary-color: rgb(69, 111, 173);
+}
+
 
 /* animations */
 
@@ -17,7 +23,9 @@ body {
     animation: fade-in 0.5s;
 }
 
-
+p {
+    font-weight: 650;
+}
 
 * {
     margin: 0;
@@ -35,14 +43,55 @@ a:any-link {
 }
 
 
+/* NAV */
+
+nav {
+    display:flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+    }
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links ul li::after {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: var(--primary-color);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
 /* HERO */
 
 
 
 .hero-container {
     height: 100dvh;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     
 }
 
@@ -58,7 +107,9 @@ a:any-link {
 }
 
 .hero-content h1 {
-    color: rgb(212, 255, 95);
+    color: var(--primary-color);
+    letter-spacing: 0.25rem;
+    font-style: bold;
 
 }
 
@@ -68,36 +119,40 @@ a:any-link {
     top: 10%;
 }
 
-.hero-content video {
-    width: 100%;
+
+.hero-content img {
+    width: 650px;
     height: auto;
 }
 
 .hero-btn {
     margin-top: 10%;
-    border: 1px solid white;
-    color: white;
-    padding: 10px 20px;
+    border: 3px solid black;
+    color: black;
+    padding: 10px 40px;
     transition: 1s all ease;
     border-radius: 10px;
     position: absolute;
     bottom: 10%;
+    font-size: 2rem;
 }
 
 .hero-btn:hover {
     margin-top: 12%;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     transform: scale(1.15);
 }
+
+
 
 /* FEATURED */
 
 .featured-container {
     padding: 25% 0 25%;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color:black;
+    color: white;
 }
 
 .featured-content {
