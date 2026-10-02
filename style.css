@@ -80,6 +80,12 @@ a:any-link {
     height: 400px;
 }
 
+.header-sleek {
+    width: 100%;
+    background-color: black;
+    height: 400px;
+}
+
 
 nav {
     display:flex;

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, inital-scale=1.0" charset="UTF-8">
+        <title> Téa Cassidy Held </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">    </head>
+        <body>
+        <section class = "header-item">
+            <nav>
+                <!--    <a href="index.html"><img src="images/logo.png"></a>    -->
+    
+
+                <div class = "nav-links" id = "navLinks">
+                    <ul>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="work.html">WORK</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        <li> <a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <div class="item-box">
+                <h1> THE ART MARKET </h1>
+                <p class="item-description">A monitor installation supported by a camera which detects the user’s facial and hand movements, 
+                    accompanied by a sculpture which encapsulates a speaker for audio</p>
+                <p><span class="bolded">Development:</span> Derivative TouchDesigner, Python, MediaPipe Motion Tracking </p>
+                <p><span class="bolded">Art: </span>Autodesk Maya </p>
+                <p><span class="bolded">Timeline:</span> 8 Weeks </p>
+            </div>
+
+        </section>
+
+            <section class="item"> 
+
+                <div class = "video-div">
+
+                <video autoplay loop playsinline controls>
+                    <source src="hello/hello.mp4">
+                </video>
+
+                <p>
+                As we've trained modern technology to act a certain way and develop more user-friendly personas, 
+                we slowly begin to create characters for our machines. 
+                They are programmed to provide positive feedback, provide us with our needs, 
+                and sit still for their next command. However, we must ask, 
+                how does technology behave when we aren't looking? 
+                Are their obedient personalities the extent of their existence, or do 
+                they have more inside of them that they may not let the average user notice? 
+                The juxtaposition between a camouflaged AI assistant robot both with and without a 
+                relationship with the user is explored in <strong>Hello World</strong>. 
+                This program offers simple directions for the actions of the character, 
+                but we may only discover how it truly reacts by experimenting with how we 
+                interact with it and pushing its limits.
+                </p>
+
+                </div>
+
+                <h2>About the Process</h2>
+                <br>
+            
+                <p>This piece was displayed in the Bloomington Cook Center Gallery November 2025 - March 2026 for the 
+                    <a href = "https://artsandhumanities.indiana.edu/cook-center/cook-center-arts/index.html" class="item-link"><strong class = "colored-text">Mimicry and Mirage Exhibition</strong></a>, which:
+                </p>
+                
+                <br>
+                <p>"Explores the interplay between visibility and concealment, adaptation and 
+                    deception, through the lens of extended reality. Drawing inspiration from 
+                    camouflage in the natural world, the exhibition showcases digital artworks 
+                    that challenge perceptions and invite viewers to question what is seen, hidden, or
+                     imagined. These works investigate the concept of camouflage not only as a 
+                     biological phenomenon but as a metaphor for navigating identity, space, and 
+                     algorithmic landscapes in an increasingly mediated world."
+                </p>
+
+                <p>
+                    Using MediaPipe's motion tracking technology, I identified points of interactions from the users' facial recognition and hand positions relative to the camera attatched to a monitor.
+                </p>
+                <p>
+                    I developed embedded algorithms in Python to identify when the robot character should respond and react to gestures given by the user. When there is no face recognized by the camera, the robot stays dormant. When there is a face recognized, the eyeline of the robot follows that of the two main points between the viewer's eyes. If the user is to dissapear from the camera or obscure their face, the robot will become upset for up to ten seconds before lying dormant again. If the user decides to raise their hand, the robot responds in a friendly manner. 
+                </p>
+                <p>
+                    Each of the different states of the robot, based on how the user interacts with it, was accompanied by ambient music and sounds componsed by a peer. 
+                </p>
+                <br>
+
+                <h2>Featured Images</h2>
+
+                <div class="image-grid">
+                    <img src="hello/hello2.jpg">
+                    <img src="hello/hello3.jpg">
+                    <img src="hello/hello4.jpg">
+                </div>
+
+                 <br>
+                  <br>
+
+        
+                <h3> <a href ="#top" class="back-to-top"> Back to top </a></h3>
+
+                <br>
+            
+
+            </section>
+        
+
+        <!-- footer -->
+        
+        <section class="footer" >
+            <img src="images/icon.png" class = "icon-size">
+            <p> Luddy School of Informatics, Computing, and Engineering.</p>
+                    <div class="footer-links"> 
+                        <ul>
+                            <li> <a href="index.html">HOME</a></li>
+                            <li> <a href="work.html">WORK</a></li>
+                            <li> <a href="about.html">ABOUT</a></li>
+                            <li> <a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+
+                <p>teaheld@iu.edu</p>
+            <br>
+        </section>
+
+ 
+    </body>
+</html>
