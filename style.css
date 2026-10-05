@@ -38,7 +38,7 @@ a:any-link {
     text-decoration: none;
     cursor: pointer;
 }
-
+/* 
 .back-to-top {
     margin: 3rem;
     padding: 5px;
@@ -50,7 +50,7 @@ a:any-link {
 
 .back-to-top:hover {
     color: rgb(203, 168, 72);
-}
+} */
 
 .header {
     min-height: 100vh;
@@ -73,9 +73,10 @@ a:any-link {
 
 .header-item {
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("images/bg.jpeg");
+    /* background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("images/bg.jpeg");
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    background-color: black;
     position: relative;
     height: 400px;
 }
@@ -243,13 +244,13 @@ nav .bi {
     padding: 70px 0 100px 0;
 }
 
-
+/* 
 h1 {
     font-size: 36px;
     font-weight: 600;
     margin-top: 2rem;
-}
-
+} */
+/* 
 p {
     font-size: 16px; 
     color: #282828;
@@ -257,7 +258,7 @@ p {
     line-height: 22px;
     padding: 10px;
     line-height: 1.5;
-}
+} */
 
 .text {
     text-align: center;
@@ -432,7 +433,7 @@ hr.solid-line {
 }
 
 .item-link:hover {
-    color: rgb(203, 168, 72);
+    color: rgb(69, 111, 173);
 }
 
 
@@ -465,7 +466,7 @@ hr.solid-line {
 }
 
 
-.content-copy {
+/* .content-copy {
      width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -483,13 +484,13 @@ hr.solid-line {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
-}
+} */
 
 
-
+/* 
 .contact-copy p {
     text-align: center;
-}
+} */
 
 
 .bolded {
@@ -515,7 +516,7 @@ hr.solid-line {
 
 .work table tr,th {
 width: 50%;
-padding: 10px 15px;
+padding: 35px 15px;
 }
 
 .work table tr th {
@@ -583,8 +584,8 @@ text-align: right;
 
 
 model-viewer {
-    width: 375px;
-    height: 375px;
+    width: 300px;
+    height: 300px;
     /* border: 3px solid #9aaee6;
      */
     border-radius: 25px;
@@ -596,7 +597,7 @@ model-viewer:hover {
     box-shadow: 0 0 30px 0px rgba(6, 44, 83, 0.5);
 }
 
-.copy-box {
+/* .copy-box {
     max-width: 700px;
     margin: 0 auto;
 }
@@ -606,7 +607,7 @@ model-viewer:hover {
     margin: 0 auto;
     color: #3a3a3a;
     padding-bottom: 3rem;
-}
+} */
 
 
 .video-div {

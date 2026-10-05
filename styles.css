@@ -357,6 +357,7 @@ nav {
     overflow: hidden;
     margin-bottom: 15%;
     border: 3px solid black;
+    
 }
 
 .explore-gallery a img {
@@ -367,6 +368,26 @@ nav {
 
 .explore-gallery a:hover {
     transform: scale(1.05);
+}
+
+/* MODELS */
+
+
+model-viewer {
+    width: 300px;
+    height: 300px;
+    margin-right: 3%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+
+.row {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 50px;
+    margin: 0 auto;  
 }
 
 
