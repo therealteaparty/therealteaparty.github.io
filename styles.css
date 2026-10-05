@@ -58,7 +58,8 @@ nav {
     display:flex;
     padding: 1% 2%;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;  
+    flex-wrap: nowrap; 
 }
 
 .nav-links {
@@ -391,6 +392,13 @@ model-viewer {
 }
 
 
+.models-container {
+    padding-top: 15%;
+    background: black;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
 
 
 /* ABOUT */
