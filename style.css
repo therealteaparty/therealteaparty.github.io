@@ -598,17 +598,18 @@ model-viewer:hover {
     box-shadow: 0 0 30px 0px rgba(6, 44, 83, 0.5);
 }
 
-/* .copy-box {
+.copy-box {
     max-width: 700px;
     margin: 0 auto;
+    
+
 }
 
 .copy-box p {
-    max-width: 700px;
-    margin: 0 auto;
+    text-align: center;
     color: #3a3a3a;
     padding-bottom: 3rem;
-} */
+}
 
 
 .video-div {
