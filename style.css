@@ -601,7 +601,6 @@ model-viewer:hover {
 .copy-box {
     max-width: 700px;
     margin: 0 auto;
-    
 
 }
 
@@ -743,7 +742,9 @@ model-viewer:hover {
 }
 
 
-
+.coming-soon {
+    height: 100dvh;
+}
 
 
 .link-btn {
