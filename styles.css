@@ -24,7 +24,7 @@
     }
 
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-110%);
         /* Snaps back seamlessly at full width */
     }
 }
@@ -493,12 +493,14 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
+
+
     .explore-content {
         width: 90%;
         max-width: 1200px;
         padding: 60px 0 80px;
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 30px;
     }
 
@@ -514,14 +516,6 @@ nav {
 
     .explore-gallery {
         grid-column: span 2;
-    }
-
-    .explore-gallery:nth-last-child(2) {
-        grid-column: 2 / span 2;
-    }
-
-    .explore-gallery:last-child {
-        grid-column: 4 / span 2;
     }
 
     .explore-gallery a {
